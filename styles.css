@@ -1,0 +1,66 @@
+body{
+    background-color:#022523;
+    color:white;
+    transition: 1s ease;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/336/918/original/cute-capybara-seamless-pattern-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.contenedor{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    width: 100%;
+    text-align:center;
+    justify-content: center;
+}
+
+.card-header{
+    color: white;
+    background: #198754;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #022523;
+}
+
+img{
+    width: 120px;
+    height: auto;
+    align-items: flex-end;
+}
+
+.paginacion {
+	position: fixed;
+	bottom: 0px;
+	background: #100a1f;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+    
+}
+
+.btnlista{
+	position:initial;
+	bottom: 95%;
+	background: #100a1f;
+	width: content;
+	display: flex;
+	justify-content: right;
+	gap: 20px;
+	padding: 10px;
+}
+
+.header{
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+}
